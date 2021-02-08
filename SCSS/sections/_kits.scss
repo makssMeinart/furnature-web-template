@@ -1,0 +1,55 @@
+.kits {
+   padding-top: 9.375rem;
+   padding-bottom: 14.375rem;
+
+   .h1--center {
+      text-align: center;
+      margin-bottom: 100px;
+   }
+
+}
+
+.kits-info {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 9rem;
+   row-gap: 30px;
+}
+
+.kits-info-content {
+   max-width: 448px;
+
+   .h1 {
+      position: relative;
+      margin-top: 0;
+      margin-bottom: 51px;
+   }
+
+   .primary-btn {
+      padding: 20px 50px;
+   }
+
+   .body {
+      margin-bottom: 50px;
+      margin-top: 0;
+   }
+}
+
+.kits-info-img {
+   max-width: 487px;
+   z-index: 0;
+   position: relative;
+   
+   &::after {
+      content: "";
+      position: absolute;
+      width: 202px;
+      height: 186px;
+      background-image: url(/Images/background/dots-bg.png);
+      z-index: 0;
+      right: -75px;
+      bottom: -80px;
+      z-index: -1;
+   }
+
+}

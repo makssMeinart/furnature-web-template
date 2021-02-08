@@ -1,0 +1,67 @@
+.h1 {
+   font-size: 3.25rem;
+   line-height: 4rem;
+}
+
+.h2 {
+   font-size: 2.375rem;
+   line-height: 3rem;
+   text-align: left;
+}
+
+.h3 {
+   font-size: 2rem;
+   line-height: 3rem;
+}
+
+.h4 {
+   font-size: 1.25rem;
+   line-height: 1.875rem;
+}
+
+.h5 {
+   font-size: 1.125rem;
+   line-height: 1.75rem;
+}
+
+.h6 {
+   font-size: 0.875rem;
+   line-height: 1.5rem;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+}
+
+.body {
+   font-size: 1.125rem;
+   line-height: 1.75rem;
+   font-family: 'Rubik', sans-serif;
+   color: #747DA1;
+}
+
+.strapline {
+   font-size: 1.125rem;
+   line-height: 2.125rem;
+   letter-spacing: 0.1em;
+   margin: 0;
+   text-transform: uppercase;
+   text-align: left;
+}
+
+.primary-btn {
+   background-color: $dark-blue-color;
+   color: $white-color;
+   cursor: pointer;
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   font-weight: 500;
+   font-size: 1.125rem;
+   line-height: 1rem;
+   border: 1px solid transparent;
+   transition: .3s linear background-color, .3s linear color;
+
+   &:hover {
+      background-color: transparent;
+      border: 1px solid $dark-blue-color;
+      color: $dark-blue-color;
+   }
+}

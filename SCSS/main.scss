@@ -1,0 +1,59 @@
+@import "../AddOns/functions", "../AddOns/mixins", "../AddOns/variables","../SCSS/pre-styles";
+
+
+// Sections
+@import  "../SCSS/sections/landing";
+@import "../SCSS/sections/kits";
+@import "../SCSS/sections/video";
+@import "../SCSS/sections/benefits";
+@import "../SCSS/sections/footer";
+
+
+// Blocks
+@import "../SCSS/blocks/header";
+@import "../SCSS/blocks/boxes";
+@import "../SCSS/blocks/services";
+@import "../SCSS/blocks/subscription";
+
+
+
+html {
+   font-size: 16px;
+}
+
+// Font Family's
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Rubik', sans-serif;
+
+body {
+   color: $black-color;
+   background-color: $white-color;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+}
+
+.container {
+   max-width: 1110px;
+   margin: 0 auto;
+   padding: 0 1rem;
+}
+
+.underlined {
+   position: relative;
+
+   &::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      height: 7px;
+      left: 3px;
+      background-color: $dark-blue-color;
+      width: 40%;
+   }
+}
+
+
+
+// Media Queries 
+
+@import "../Mobile/mobile";

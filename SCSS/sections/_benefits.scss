@@ -1,0 +1,112 @@
+.benefits {
+   padding-top: 10rem;
+}
+
+.h2-benefits {
+   margin-top: 0;
+   position: relative;
+   max-width: 442px;
+   margin-bottom: 85px;
+}
+
+
+
+
+// Benefits Img
+.benefits-content-img {
+   max-width: 487px;
+   margin-right: 86px;
+   position: relative;
+
+   &::after {
+      content: "";
+      position: absolute;
+      width: 202px;
+      height: 186px;
+      background-image: url(/Images/background/dots-bg.png);
+      z-index: -1;
+      left: -100px;
+      bottom: -80px;
+   }
+
+
+   .disscount {
+      position: absolute;
+      font-weight: 600;
+      font-size: 3.875rem;
+      line-height: 3.75rem;
+      color: $white-color;
+      text-transform: uppercase;
+      margin: 0;
+      padding-top: 1.9375rem;
+      padding-left: 1.875rem;
+      width: 200px;
+      height: 200px;
+      border-radius: 0px 0px 600px 0px;
+      background-color: rgba(#083C6E, $alpha: .8);
+   }
+
+   &-circle {
+      position: absolute;
+      bottom: -100px;
+      right: -13%;
+      height: 342px;
+      width: 342px;
+      border-radius: 50%;
+      background-image: url(/Images/background/image--cyrcle.png);
+      background-position: center bottom;
+      transform: rotate(-20deg);
+      border: 4px solid $white-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+         transform: rotate(18deg);
+         margin-top: 35px;
+      }
+   }
+}
+
+
+
+// Benefits content
+
+.benefits-content {
+   padding-top: 146px;
+   display: flex;
+}
+
+.benefits-content__content {
+   max-width: 445px;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   .h3 {
+      margin: 0;
+      position: relative;
+      font-weight: 500;
+      font-size: 2.375rem;
+      line-height: 3rem;
+      padding-bottom: .5rem;
+   }
+
+   .h3.underlined {
+
+      &::after {
+         width: 154px;
+      }
+   }
+
+   .body {
+      margin-top: 31px;
+      margin-bottom: 50px;
+   }
+
+   .primary-btn {
+      padding: 1.25rem 3.125rem;
+      align-self: flex-start;
+   }
+}

@@ -1,0 +1,38 @@
+.landing {
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+
+.landing-wrapper {
+   margin-top: 150px;
+   max-width: 460px;
+}
+
+.landing-header {
+   font-weight: 600;
+   font-size: 3.75rem;
+   line-height: 5.25rem;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   margin-bottom: 5px;
+}
+
+.product-name {
+   display: flex;
+   justify-content: space-between;
+
+   &__input {
+      padding: 18.5px 63px 16.1px 37px;
+      background: #F1F1F1;
+      border: none;
+      flex-grow: 1;
+   }
+
+   .primary-btn {
+
+      line-height: 0;
+      padding: 25.5px 35px;
+      transform: translateX(-5px);
+   }
+}
